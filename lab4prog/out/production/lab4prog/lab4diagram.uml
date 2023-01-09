@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.ifmo.prog.enums.Around_place_enum</OriginalElement>
+  <nodes>
+    <node x="866.1420809848416" y="703.3898368947138">ru.ifmo.prog.Characters.Fille</node>
+    <node x="650.1420809848416" y="703.3898368947138">ru.ifmo.prog.Characters.Baby</node>
+    <node x="758.1420809848416" y="703.3898368947138">ru.ifmo.prog.Characters.Rylle</node>
+    <node x="623.1420809848416" y="1279.8198367375048">ru.ifmo.prog.Interfaces.Print</node>
+    <node x="-61.12116451797692" y="953.8898368947139">ru.ifmo.prog.Exept.DontDrinkBeerException</node>
+    <node x="533.1420809848416" y="609.3898368947138">ru.ifmo.prog.Interfaces.speak</node>
+    <node x="409.64208098484164" y="1079.8198367375048">ru.ifmo.prog.Characters.Home.Chair</node>
+    <node x="-61.12116451797692" y="1047.8898368947139">ru.ifmo.prog.Exept.FindException</node>
+    <node x="865.1420809848416" y="856.8198367375048">ru.ifmo.prog.Characters.Home</node>
+    <node x="7.878835482023078" y="452.38983689471377">ru.ifmo.prog.Characters.Beer</node>
+    <node x="493.14208098484164" y="-26.610163105286233">ru.ifmo.prog.Characters.Human</node>
+    <node x="886.1420809848416" y="609.3898368947138">ru.ifmo.prog.Characters.Carlson</node>
+    <node x="555.1420809848416" y="999.8198367375048">ru.ifmo.prog.Characters.Items</node>
+    <node x="179.37883548202308" y="569.3898368947138">java.lang.Enum</node>
+    <node x="687.1420809848416" y="491.38983689471377">ru.ifmo.prog.Interfaces.Around_place</node>
+    <node x="710.1420809848416" y="609.3898368947138">ru.ifmo.prog.Interfaces.Change_location</node>
+    <node x="648.1420809848416" y="879.8198367375048">ru.ifmo.prog.Characters.Home.Table</node>
+    <node x="219.37883548202308" y="931.3898368947139">java.lang.Comparable</node>
+    <node x="139.37883548202308" y="429.38983689471377">ru.ifmo.prog.enums.Around_place_enum</node>
+    <node x="533.1420809848416" y="491.38983689471377">ru.ifmo.prog.Interfaces.smthdo</node>
+    <node x="533.1420809848416" y="703.3898368947138">ru.ifmo.prog.Characters.Sweep</node>
+    <node x="-101.12116451797692" y="884.8898368947139">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.ifmo.prog.Characters.Rylle" target="ru.ifmo.prog.Characters.Human" relationship="GENERALIZATION">
+      <point x="-3.1192540291158366E-5" y="-26.999770707188873" />
+      <point x="802.1420497923013" y="683.7710661875249" />
+      <point x="515.6420497923013" y="683.7710661875249" />
+      <point x="-144.0000311925403" y="239.00022929281113" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Home" target="ru.ifmo.prog.Characters.Items" relationship="GENERALIZATION">
+      <point x="-3.1192540291158366E-5" y="50.000229450020015" />
+      <point x="954.1420497923013" y="978.7710661875249" />
+      <point x="694.1420497923013" y="978.7710661875249" />
+      <point x="-3.1192540291158366E-5" y="-106.99977054997998" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Home.Chair" target="ru.ifmo.prog.Characters.Home" relationship="INNER_CLASS">
+      <point x="-15.000031192540291" y="-26.999770549979985" />
+      <point x="439.14204979230135" y="956.7710661875249" />
+      <point x="765.6420497923013" y="956.7710661875249" />
+      <point x="765.6420497923013" y="906.8200661875248" />
+      <point x="-89.00003119254029" y="2.294500200150651E-4" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="-108.16878568972174" y="161.000229292811" />
+      <point x="196.71004979230133" y="934.7710661875249" />
+      <point x="-41.120950207698684" y="934.7710661875249" />
+      <point x="2.1431027825258298E-4" y="14.5002292928109" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Sweep" target="ru.ifmo.prog.Characters.Human" relationship="GENERALIZATION">
+      <point x="-3.1192540291158366E-5" y="-26.999770707188873" />
+      <point x="581.6420497923013" y="683.7710661875249" />
+      <point x="515.6420497923013" y="683.7710661875249" />
+      <point x="-144.0000311925403" y="239.00022929281113" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Human" target="ru.ifmo.prog.Interfaces.speak" relationship="REALIZATION">
+      <point x="-166.5" y="0.0" />
+      <point x="475.64208098484164" y="212.38983689471377" />
+      <point x="475.64208098484164" y="636.3898368947138" />
+      <point x="-78.5" y="0.0" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Home.Chair" target="ru.ifmo.prog.Characters.Items" relationship="GENERALIZATION">
+      <point x="-3.1192540291158366E-5" y="-26.999770549979985" />
+      <point x="454.14204979230135" y="978.7710661875249" />
+      <point x="694.1420497923013" y="978.7710661875249" />
+      <point x="-3.1192540291158366E-5" y="-106.99977054997998" />
+    </edge>
+    <edge source="ru.ifmo.prog.Exept.DontDrinkBeerException" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="2.1431027826679383E-4" y="-26.9997707071891" />
+      <point x="50.879049792301316" y="934.7710661875249" />
+      <point x="-41.120950207698684" y="934.7710661875249" />
+      <point x="2.1431027825258298E-4" y="14.5002292928109" />
+    </edge>
+    <edge source="ru.ifmo.prog.Exept.FindException" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="-69.99978568972175" y="2.2929281090000586E-4" />
+      <point x="-78.62095020769868" y="1074.8900661875248" />
+      <point x="-78.62095020769868" y="934.7710661875249" />
+      <point x="-41.120950207698684" y="934.7710661875249" />
+      <point x="2.1431027825258298E-4" y="14.5002292928109" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Human" target="ru.ifmo.prog.Interfaces.Change_location" relationship="REALIZATION">
+      <point x="166.5" y="10.5" />
+      <point x="1000.1420809848416" y="222.88983689471377" />
+      <point x="1000.1420809848416" y="564.3898368947138" />
+      <point x="788.1420809848416" y="564.3898368947138" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Fille" target="ru.ifmo.prog.Characters.Human" relationship="GENERALIZATION">
+      <point x="-3.1192540291158366E-5" y="-26.999770707188873" />
+      <point x="908.1420497923013" y="683.7710661875249" />
+      <point x="515.6420497923013" y="683.7710661875249" />
+      <point x="-144.0000311925403" y="239.00022929281113" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Home.Table" target="ru.ifmo.prog.Characters.Home" relationship="INNER_CLASS">
+      <point x="14.999968807459709" y="27.000229450020015" />
+      <point x="709.1420497923013" y="956.7710661875249" />
+      <point x="765.6420497923013" y="956.7710661875249" />
+      <point x="765.6420497923013" y="906.8200661875248" />
+      <point x="-89.00003119254029" y="2.294500200150651E-4" />
+    </edge>
+    <edge source="ru.ifmo.prog.enums.Around_place_enum" target="java.lang.Enum" relationship="GENERALIZATION">
+      <point x="46.0" y="50.0" />
+      <point x="0.0" y="-161.0" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Baby" target="ru.ifmo.prog.Characters.Human" relationship="GENERALIZATION">
+      <point x="-3.1192540291158366E-5" y="-26.999770707188873" />
+      <point x="694.1420497923013" y="683.7710661875249" />
+      <point x="515.6420497923013" y="683.7710661875249" />
+      <point x="-144.0000311925403" y="239.00022929281113" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable" relationship="REALIZATION">
+      <point x="-6.5" y="161.0000000000001" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Carlson" target="ru.ifmo.prog.Characters.Human" relationship="GENERALIZATION">
+      <point x="-3.1192540291158366E-5" y="27.000229292811127" />
+      <point x="936.6420497923013" y="683.7710661875249" />
+      <point x="515.6420497923013" y="683.7710661875249" />
+      <point x="-144.0000311925403" y="239.00022929281113" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Home.Table" target="ru.ifmo.prog.Characters.Items" relationship="GENERALIZATION">
+      <point x="-3.1192540291158366E-5" y="27.000229450020015" />
+      <point x="-3.1192540291158366E-5" y="-106.99977054997998" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Human" target="ru.ifmo.prog.Interfaces.Around_place" relationship="REALIZATION">
+      <point x="159.0" y="239.0" />
+      <point x="-6.0" y="-27.0" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Items" target="ru.ifmo.prog.Interfaces.Print" relationship="REALIZATION">
+      <point x="0.0" y="107.0" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="ru.ifmo.prog.Characters.Human" target="ru.ifmo.prog.Interfaces.smthdo" relationship="REALIZATION">
+      <point x="-59.5" y="239.0" />
+      <point x="0.0" y="-39.0" />
+    </edge>
+  </edges>
+  <settings layout="Compact" zoom="1.0" showDependencies="false" x="556.2339531779662" y="1104.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
